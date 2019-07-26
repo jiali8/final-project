@@ -1,0 +1,84 @@
+html {
+    background-image: url("imagesHouse/bg10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 0 auto;
+    width: 800px;
+    padding: 25px 75px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+table {
+    font-size: 30px;
+}
+
+td {
+    padding: 30px;
+}
+
+#money {
+    font-size: 40px;
+    color: rgb(104, 191, 231);
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 18px;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(148, 208, 236);
+    border-color: rgb(148, 208, 236);
+    color: rgb(255, 255, 255);
+}
+
+input {
+    height: 23px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+a:link, a:visited {
+    background-color: rgb(148, 208, 236);
+    border-radius: 25px;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+  
+a:hover, a:active {
+    background-color: rgb(93, 176, 214);
+}
+
+#houses img {
+    width: 200px;
+    height: 180px;
+    border: 1px solid rgb(160, 160, 160);
+    padding: 8px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+#buildHouse-btn {
+    width: 200px; 
+    font-size: 25px;
+    background-color: rgb(148, 208, 236);
+    color: white;
+}
+
+h2 {
+    font-size: 25px;
+}

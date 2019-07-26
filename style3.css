@@ -1,0 +1,76 @@
+body {
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 800px; 
+    padding: 50px 100px;
+    
+    
+
+}
+
+html {
+    background-image: url("imagesMadlib/bg14.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+button {
+    color:white;
+    background-color: rgb(243, 190, 159);
+    padding: 10px 25px;
+    font-size: 25px; 
+    border-radius: 25px;
+    border-color: rgb(243, 190, 159);
+
+}
+
+p, ul, input {
+    font-size: 20px;
+}
+
+.results {
+    font-size: 25px; 
+    padding: 5px;
+}
+
+h1, h2 {
+    font-variant: small-caps;
+}
+
+h1 {
+    font-size: 45px;
+
+}
+
+h2 {
+    font-size: 30px;
+
+}
+
+p, h1, h2, ul, button, .results, input {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:link, a:visited {
+    background-color: rgb(243, 190, 159);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px; 
+    margin-right: 5px;
+    font-size: 35px;
+    
+}
+  
+a:hover, a:active {
+    background-color: rgb(221, 165, 131);
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+}

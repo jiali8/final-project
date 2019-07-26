@@ -1,0 +1,36 @@
+html {
+    background: url("images/bg12.jpg") fixed; 
+    background-size: cover; 
+    
+}
+body {
+    margin:0 auto; 
+    width: 1100px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.3); 
+    text-align: center; 
+    padding-top: 400px;
+    padding-bottom: 70px;
+    font-size: 29px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+a {
+    color: black; 
+}
+
+a:link, a:visited {
+    background-color: #f8736a;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+  
+a:hover, a:active {
+    background-color: #e64a3f;
+}

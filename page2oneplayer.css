@@ -1,0 +1,40 @@
+html {
+    background: url("imagesBird/sky12.jpg") no-repeat center fixed; 
+    background-size: cover;
+    margin: 50px;
+}
+
+
+h1, p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+canvas {
+    border: 20px solid rgba(255, 255, 255, 0.4); 
+    border-radius: 25px;
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    display:none;
+}
+
+a:link, a:visited {
+    background-color: rgb(226, 189, 212);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px; 
+    margin-right: 5px;
+    font-size: 35px;
+    
+}
+  
+a:hover, a:active {
+    background-color: rgb(191, 145, 209);
+}

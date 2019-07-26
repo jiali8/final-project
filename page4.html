@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>House Simulator</title>
+        <link rel="stylesheet" type="text/css" href="style4.css">
+    
+    </head>
+
+    <body>
+        <h1> <a href="index.html"> BACK </a>  House Building Simulator</h1>
+        <h2>Make money, buy supplies, and build your dream house!</h2>
+        
+        <hr>
+        <table align="center">
+            <tr>
+                <td>Money: $<span id="money">0</span></td>
+                <td>
+                    <p><button id="mowLawn-btn"> $10 Mow Lawn </button><button id="fiveLawns"> Try 5 Times</button> </p>
+                    <P><span id="mowResults"> *</span> </P> 
+                    <p><button id="shovel-btn"> $15 Shovel Driveway </button> <button id="fiveDriveways"> Try 5 Times</button></p>
+                    <P><span id="shovelResults"> *</span> </P> 
+                    <p> <button id="sale-btn"> $50 Hold a garage sale</button> <button id="fiveSales"> Try 5 Times</button></p>  
+                    <P><span id="saleResults"> *</span> </P> 
+                    <p> <button id="getJob-btn"> $250 Get a job and Work</button> <button id="fiveJobs"> Try 5 Times</button></p> 
+                    <P><span id="jobResults"> *</span> </P> 
+                </td> 
+            </tr>
+        </table>
+
+
+        <button id="wood">Buy Wood -$30</button>
+        <button id="nail">Buy Nails and Screws -$5</button>
+        <button id="tape">Buy Measuring Tape -$10</button>
+        <button id="saw">Buy Circular Saw -$50</button>
+        <button id="wire">Buy Electrical Wire -$10 </button>
+        <button id="roofing">Buy Roofing -$100</button>
+        <button id="hammer">Buy Hammer -$15</button>
+        <button id="drill">Buy Drill -$50</button>
+
+        <p id="lowMoney"> <strong> + </strong> </p>
+
+        <h2>Your Supplies </h2>
+
+        <p class="itemsCount">
+            ITEMS ➜ 
+            Wood: <span id="numWood">0</span> |
+            Nails and Screws: <span id="numNails">0</span> |
+            Measuring Tape: <span id="numTape">0</span> |
+            Circular Saw: <span id="numSaw">0</span> |
+            Electrical Wire: <span id="numWire">0</span> |
+            Roofing: <span id="numRoof">0</span> |
+            Hammer: <span id="numHammer">0</span> |
+            Drill: <span id="numDrill">0</span> 
+        
+        </p>
+
+        <BUTTON id = buildHouse-btn> Build House</BUTTON> 
+        <P>Requirements: 15 wood, 10 nails and screws, 1 measuring tape, 1 circular saw, 5 electrical wires, 10 roof tiles, 1 hammer, and 1 drill per house. </P> 
+        <p> Houses built: <span id = "totalHouses" > </span></p>
+
+        <p id="houses"></p>
+    <script src="main4.js"></script>
+    </body>
+</html>
